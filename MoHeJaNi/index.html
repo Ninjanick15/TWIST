@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<!--MJP: Github account for team, work on this next week, then test -->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>MoHeJaNi :: Home</title>
+
+	<script>
+		// Picture element HTML5 shiv
+    document.createElement( "picture" );
+	</script>
+	<script src="picturefill.js" async>
+
+	</script>
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+	 crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+
+	</script>
+	<script src="script.js">
+
+	</script>
+
+	<!--MJP: Do you plan on having any JavaScript references to script.js? or is all of it external? It's okay either way, just a question :-)-->
+
+</head>
+
+<body>
+
+	<!--Start of Nav Bar-->
+	<div id="nav">
+		<nav class="navbar navbar-expand-sm sticky-top">
+
+			<a class="navbar-brand" href="/" id="nav">
+				<h1>MoHeJaNi</h1>
+			</a>
+
+			<ul class="navbar-nav">
+
+				<li class="nav-item">
+					<a class="nav-link" href="#" id="nav">Top</a>
+				</li>
+
+				<button type="button" class="btn btn-link"><a href="/cuisine" id="nav">Cuisine</a></button>
+
+      <button type="button" class="btn btn-link"><a href="/prep" id="nav">Meal Prep</a></button>
+
+      <button type="button" class="btn btn-link"><a href="/diet" id="nav">Dietary Restrictions</a></button>
+    </ul>
+    
+		<form class="form-inline" action="/action_page.php">
+			<input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit" onclick="loadXMLDoc()">Search</button>
+  </form>
+
+	<button type="button" class="btn btn-link"><a href="/login" id="nav">Log in</a></button>
+  <button type="button" class="btn btn-link"><a href="/signup" id="nav">Sign Up</a></button>
+
+</nav>
+</div>
+<!-- End of navbar -->
+
+<div id="wrapper">
+<br>
+<br>
+
+<div id="slide" class="carousel slide" data-ride="carousel" align="center">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#slide" data-slide-to="0" class="active"></li>
+    <li data-target="#slide" data-slide-to="1"></li>
+    <li data-target="#slide" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <!--MJP: Just a thought, but I like the idea of animated gifs as well, so strategically used, would be a nice add [i.e., like an animated gif of a pan activly showing a stirfry happening, etc...]-->
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <picture>
+      <img src="Pictures/natural.png" alt="natural" media="(min-width: 769px)">      
+      </picture>
+        <div class="carousel-caption">
+          <p></p>
+        </div>  
+    </div>
+    <div class="carousel-item">
+      <picture>
+      <img src="Pictures/veggie.png" alt="veggie" media="(min-width: 769px)">
+      </picture>
+        <div class="carousel-caption">
+          <p></p>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.today.com/recipes/fluffy-japanese-souffl-pancakes-recipe-t227231">
+      <picture>
+      <img src="Pictures/pancake.png" alt="New York" media="(min-width: 769px)">
+      </picture>
+        <div class="carousel-caption">
+          <p></p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- Left and right controls -->
+
+  <a class="carousel-control-prev" href="#slide" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#slide" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<!-- End of carousel -->
+
+<!-- start of flex container -->
+<div id="content">
+<div class="row mt-2">
+  <div class="pad">
+  <div class="col p-0">
+    <div class="container"> 
+      <div class="row-fluid ">
+        <h2>Jacob A</h2>
+        <p>Chicken Wrap</p>
+          <div class="card-block" style="width:400px">
+            <img class="card-img-top" src="Pictures/wrap.png" alt="Card image" height="325">
+            <div class="card-body">
+              <h4 class="card-title">Jacob Atkinson</h4>
+              <p class="card-text">This wrap is a must try!</p>
+              <a href="#baked" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+              <div id="baked" class="collapse">
+                    recipe goes here
+                </div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col p-3">   
+      <div class="row-fluid ">
+        <div class="pad2">
+        <h2>MKRollin</h2>
+        <p>Mini Cinni's</p>
+        <div class="card-block" style="width:400px">
+          <img class="card-img-top" src="Pictures/Mini Cinni's.png" alt="Card image" height="325">
+          <div class="card-body">
+              <h4 class="card-title">Molly Rollins</h4>
+              <p class="card-text">These mini cinnamon rolls are to die for!!</p>
+              <a href="#cin" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+            <div id="cin" class="collapse">
+              recipe goes here
+            </div>
+
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col p-3">
+      <div class="row-fluid ">
+        <h2>NinjaNick</h2>
+        <p>Three Cheese Mac N Cheese</p>
+        <div class="card-block" style="width:400px">
+          <img class="card-img-top" src="Pictures/mac.png" alt="Card image" height="325">
+          <div class="card-body">
+              <h4 class="card-title">Nick Saltkill</h4>
+              <p class="card-text">This Mac N Cheese is amazing!</p>
+              <a href="#mac" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+            <div id="mac" class="collapse">
+              recipe goes here
+                <form action="action_page.php">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="Review">Comment</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="subject" name="subject" placeholder="Insert Text Here" style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <div class="row float-right">    
+                    <input type="submit" value="Post">                
+                </form>             
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col p-0">
+      <div class="pad">
+      <div class="container"> 
+        <div class="row-fluid ">
+          <h2>Henry K</h2>
+          <p>Classic Bierocks</p>
+            <div class="card-block" style="width:400px">
+              <img class="card-img-top" src="Pictures/bierock.png" alt="Card image" height="325">
+              <div class="card-body">
+                <h4 class="card-title">Henry Kerschen</h4>
+                <p class="card-text">Classic bierocks for a cold winter night.</p>
+                <a href="#bierock" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+                <div id="bierock" class="collapse">
+                      recipe goes here
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3"> 
+        <div class="pad3">
+        <div class="row-fluid ">
+          <h2>MKRollin</h2>
+          <p>Mini Cinni's</p>
+          <div class="card-block" style="width:400px">
+            <img class="card-img-top" src="Pictures/Mini Cinni's.png" alt="Card image" height="325">
+            <div class="card-body">
+                <h4 class="card-title">Molly Rollins</h4>
+                <p class="card-text">These mini cinnamon rolls are to die for!!</p>
+                <a href="#cin" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+              <div id="cin" class="collapse">
+                recipe goes here
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3">
+        <div class="row-fluid ">
+          <h2>NinjaNick</h2>
+          <p>Three Cheese Mac N Cheese</p>
+          <div class="card-block" style="width:400px">
+            <img class="card-img-top" src="Pictures/mac.png" alt="Card image" height="325">
+            <div class="card-body">
+                <h4 class="card-title">Nick Saltkill</h4>
+                <p class="card-text">This Mac N Cheese is amazing!</p>
+                <a href="#mac" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+              <div id="mac" class="collapse">
+                recipe goes here
+                  <form action="action_page.php">
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="Review">Comment</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Insert Text Here" style="height:200px"></textarea>
+                      </div>
+                    </div>
+                    <div class="row float-right">    
+                      <input type="submit" value="Post">                
+                  </form>             
+                </div>
+          
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<br>
+
+  </body>
+<div id="footer">
+    <a href="mailto:MoHeJaNi@gmail.com" id="footer">| Contact Us |</a>
+	    <a id="footer" href="about.html">| About Us |</a>
+</div>
+</html>

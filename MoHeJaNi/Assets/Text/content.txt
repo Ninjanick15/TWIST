@@ -1,0 +1,146 @@
+<!--start of content-->
+<div id="content">
+<div class="row mt-2">
+  <div class="col p-3">
+    <div class="container"> 
+      <div class="row-fluid ">
+        <h2>JacobaAtkinson</h2>
+        <p>Chicken Wrap</p>
+          <div class="card-block" style="width:400px">
+            <img class="card-img-top" src="Assets/Pictures/wrap2.png" alt="Card image" height="325">
+            <div class="card-body">
+              <h4 class="card-title">Jacob Atkinson</h4>
+              <p class="card-text">This wrap is a must try!</p>
+              <a href="#baked" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+              <div id="baked" class="collapse">
+                    recipe goes here
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col p-3">   
+      <div class="row-fluid ">
+        <h2>MKRollin</h2>
+        <p>Mini Cinni's</p>
+        <div class="card-block" style="width:400px">
+          <img class="card-img-top" src="Assets/Pictures/Roll.png" alt="Card image" height="325">
+          <div class="card-body">
+              <h4 class="card-title">Molly Rollins</h4>
+              <p class="card-text">These mini cinnamon rolls are to die for!!</p>
+              <a href="#cin" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+            <div id="cin" class="collapse">
+              recipe goes here
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col p-3">
+      <div class="row-fluid ">
+        <h2>NinjaNick</h2>
+        <p>Three Cheese Mac N Cheese</p>
+        <div class="card-block" style="width:400px">
+          <img class="card-img-top" src="Assets/Pictures/mac2.png" alt="Card image" height="325">
+          <div class="card-body">
+              <h4 class="card-title">Nick Saltkill</h4>
+              <p class="card-text">This Mac N Cheese is amazing!</p>
+              <a href="#mac" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+            <div id="mac" class="collapse">
+              recipe goes here
+                <form action="action_page.php">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="Review">Comment</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="subject" name="subject" placeholder="Insert Text Here" style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <div class="row float-right">    
+                    <input type="submit" value="Post">                
+                </form>             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col p-3">
+      <div class="container"> 
+        <div class="row-fluid ">
+          <h2>JacobaAtkinson</h2>
+          <p>Chicken Wrap</p>
+            <div class="card-block" style="width:400px">
+              <img class="card-img-top" src="Assets/Pictures/wrap2.png" alt="Card image" height="325">
+              <div class="card-body">
+                <h4 class="card-title">Jacob Atkinson</h4>
+                <p class="card-text">This wrap is a must try!</p>
+                <a href="#baked" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+                <div id="baked" class="collapse">
+                      recipe goes here
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3">   
+        <div class="row-fluid ">
+          <h2>MKRollin</h2>
+          <p>Mini Cinni's</p>
+          <div class="card-block" style="width:400px">
+            <img class="card-img-top" src="Assets/Pictures/Roll.png" alt="Card image" height="325">
+            <div class="card-body">
+                <h4 class="card-title">Molly Rollins</h4>
+                <p class="card-text">These mini cinnamon rolls are to die for!!</p>
+                <a href="#cin" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+              <div id="cin" class="collapse">
+                recipe goes here
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col p-3">
+        <div class="row-fluid ">
+          <h2>NinjaNick</h2>
+          <p>Three Cheese Mac N Cheese</p>
+          <div class="card-block" style="width:400px">
+            <img class="card-img-top" src="Assets/Pictures/mac2.png" alt="Card image" height="325">
+            <div class="card-body">
+                <h4 class="card-title">Nick Saltkill</h4>
+                <p class="card-text">This Mac N Cheese is amazing!</p>
+                <a href="#mac" class="btn btn-primary" data-toggle="collapse">See Recipe</a>
+              <div id="mac" class="collapse">
+                recipe goes here
+                  <form action="action_page.php">
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="Review">Comment</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Insert Text Here" style="height:200px"></textarea>
+                      </div>
+                    </div>
+                    <div class="row float-right">    
+                      <input type="submit" value="Post">                
+                  </form>             
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<!--end of content-->
+
+
+                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
